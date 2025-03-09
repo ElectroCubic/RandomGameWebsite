@@ -1,0 +1,27 @@
+p {
+    font-weight: 800;
+    font-size: 20px;
+}
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#fakeLogin {
+    position: absolute;
+    top: 250px;
+    left: 200px;
+}
+
+#exit {
+    position: absolute;
+    top: 20px;
+    left: 500px;
+    opacity: 0%;
+    padding: 10px 20px; 
+    background-color: darkgreen; 
+    color: white;
+    font-size: large;
+    border: none;
+    cursor: pointer;
+}

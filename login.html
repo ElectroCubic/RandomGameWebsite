@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="login.css">
+    <script>
+        function goToLevel1()
+        {
+            window.location.href = "level1.html";
+        }
+    </script>
+</head>
+<body style="background-color: cadetblue; user-select: none;">
+    <h1> Wait the Login Page??? </h1>
+    <h2> Its been ages since someone was able to get to that button! </h2>
+
+    <p> Very well, go ahead, try to login... it doesn't respond anyways </p>
+
+    <form>
+        <label for="username"> Enter User Name: <input type="text" size="40" maxlength="30"> </label> <br><br>
+        <label for="passwd"> Enter Password: <input type="password" size="20" maxlength="20"> </label>
+
+    </form>
+    <button id="fakeLogin" tabindex="-1"> Login </button>
+    <h2 id="moreText" style="position: relative; top: 50px;"></h2>
+    <h3 id="moreText2" style="position: relative; top: 70px; left: 1000px;"></h3>
+    <button class="trigger" id="exit" data-function="goToLevel1" tabindex="-1"> Go HERE </button>
+    
+    <script src="cubePlatformer.js"></script>
+    <script src="loginGimmicks.js"></script>
+    <canvas id="gameCanvas" style="position: fixed; top: 0; left: 0; width: 100vw; height: 100vh; z-index: -1;"></canvas>
+
+</body>
+</html>

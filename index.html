@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> A Random Game Website</title>
+    <link rel="stylesheet" href="mainPage.css">
+    <script>
+        function goToLogin()
+        {
+            window.location.href = "login.html";
+        }
+    </script>
+</head>
+<body>
+    <h1 id="title"> Hello Random User! :)</h1>
+    <p id="block1"> No need to poke around, nothing special here... </p>
+    <p id="block2"> You should probably go outside, read some book, enjoy with your friends?? </p>
+    <p id="block3"> No need to try reaching that Login Button, it's useless... </p>
+    <p id="block4"> If you're still reading this, go back, it's for your own good. </p>
+    <p style="position: absolute; top: 600px; left: 200px;"> ... </p>
+
+    <canvas id="gameCanvas" style="position: fixed; top: 0; left: 0; width: 100vw; height: 100vh;"></canvas>
+    <button class="trigger" id="loginButton" data-function="goToLogin" tabindex="-1"> Login </button>
+    <input id="testSlider" min="0" max="350" type="range" value="100" tabindex="-1">
+
+    <script src="cubePlatformer.js"></script>
+    <script src="mainpage_gimmicks.js"></script> 
+</body>
+</html>
