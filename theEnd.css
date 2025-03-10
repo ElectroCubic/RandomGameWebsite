@@ -1,0 +1,51 @@
+p {
+    font-weight: 800;
+    font-size: 20px;
+}
+
+body {
+    background-color: lightcyan;
+    font-family: 'Courier New', Courier, monospace;
+    user-select: none;
+}
+
+#title {
+    text-align: center;
+    font-size: 3em;
+}
+
+#block1 {
+    position: absolute;
+    top: 200px;
+    left: 400px;
+}
+
+#block2 {   
+    position: absolute; 
+    top: 300px;
+    left: 320px;
+}
+
+#block3 {   
+    position: absolute;
+    top: 400px;
+    left: 450px;
+}
+
+#block4 {   
+    position: absolute;
+    top: 500px;
+    left: 310px;
+}
+
+#logoutButton {
+    position: absolute; 
+    top: 50px; 
+    left: 200px; 
+    padding: 10px 20px; 
+    background-color: red; 
+    color: white;
+    font-size: large;
+    border: none;
+    cursor: pointer;
+}

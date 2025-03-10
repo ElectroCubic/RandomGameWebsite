@@ -1,4 +1,8 @@
 
+function goToLogin()
+{
+    window.location.href = "login.html";
+}
 
 document.addEventListener("DOMContentLoaded", () => {
     const slider = document.getElementById("testSlider");

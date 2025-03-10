@@ -3,28 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Level_1</title>
+    <title>Level 1</title>
     <link rel="stylesheet" href="level_1.css">
-    <script>
-        function goToLevel2()
-        {
-            window.location.href = "level2.html";
-        }
-
-        function pain()
-        {
-            window.location.reload();
-        }
-
-        function shift()
-        {
-            var exit = document.getElementById("exit");
-            exit.style.left = 50 + "px";
-        }
-    </script>
 </head>
 <body>
-    <h1 id="title"> TO CREATE YOUR ACCOUNT YOU NEED TO SURVIVE THE CHALLENGES!! >:) </h1>
+    <h1 id="title"> BUT TO CREATE YOUR ACCOUNT YOU NEED TO FIRST PROVE YOU'RE WORTHY!! >:) </h1>
     <p id="block1"> Also btw the FLOOR IS LAVA! </p>
 
     <p id="platform1"> PLATFORM </p>
@@ -34,7 +17,7 @@
 
     <canvas id="gameCanvas" style="position: fixed; top: 0; left: 0; width: 100vw; height: 100vh;"></canvas>
     <button class="trigger" id="exit" data-function="goToLevel2" tabindex="-1"> EXIT </button>
-    <div class="trigger" id="lava" data-function="pain"> LAVA LAVA LAVA LAVA LAVA LAVA LAVA LAVA LAVA LAVA LAVA LAVA LAVA LAVA LAVA LAVA LAVA LAVA LAVA LAVA LAVA LAVA LAVA LAVA LAVA LAVA</div>
+    <div class="trigger" id="lava" data-function="pain"> LAVA LAVA LAVA LAVA LAVA LAVA LAVA LAVA LAVA LAVA</div>
     <div class="trigger" id="switch" data-function="shift"></div>
 
     <script src="cubePlatformer.js"></script>

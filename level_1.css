@@ -6,6 +6,7 @@ p {
 body {
     background-color: lightsalmon;
     font-family: 'Courier New', Courier, monospace;
+    user-select: none;
 }
 
 #exit {
@@ -30,11 +31,12 @@ body {
 #lava {
     position: absolute;
     top: 630px;
+    left: 0;
     width: 100%;
-    padding: 10px 20px; 
+    padding: 10px 20px 50px 20px;
     background-color: darkorange; 
     color: red; 
-    font-size: larger;
+    font-size: 50px;
     font-weight: bold;
     border: none;
     cursor: pointer;

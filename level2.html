@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Level 2</title>
+    <link rel="stylesheet" href="level_2.css">
+</head>
+<body>
+    <h1 id="title"> LETS SEE HOW LUCKY YOU CAN GET :P </h1>
+
+    <p id="block1"> THIS IS THE MACHINE WHICH DECIDES YOUR FATE! <br> </p>
+    <p id="block2"> Guess the number which I am thinking (1-3), if you're correct 3 times in a row, you WIN, or else you DIE <br> </p>
+    <p id="help"> Choose a Number: </p>
+    <p id="ans"> </p>
+
+    <div id="sldr"></div>
+
+    <div class="trigger" id="num1" data-function="typeNumber1"> 1 </div>
+    <div class="trigger" id="num2" data-function="typeNumber2"> 2 </div>
+    <div class="trigger" id="num3" data-function="typeNumber3"> 3 </div>
+    <button class="trigger" id="exit" data-function="goToLevel3" tabindex="-1"> EXIT </button>
+    <canvas id="gameCanvas" style="position: fixed; top: 0; left: 0; width: 100vw; height: 100vh; z-index: -1;"></canvas>
+    <script src="cubePlatformer.js"></script>
+    <script src="level_2_gimmicks.js"></script>
+
+</body>
+</html>

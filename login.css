@@ -4,19 +4,30 @@ p {
 }
 
 body {
+    background-color: cadetblue;
     font-family: 'Courier New', Courier, monospace;
+    user-select: none;
+}
+
+#moreText, #moreText2 {
+    font-size: 24px;
 }
 
 #fakeLogin {
     position: absolute;
-    top: 250px;
-    left: 200px;
+    top: 200px;
+    left: 360px;
+    padding: 10px 20px; 
+    background-color: blue; 
+    color: white;
+    font-size: large;
+    cursor: pointer;
 }
 
 #exit {
     position: absolute;
-    top: 20px;
-    left: 500px;
+    top: 60px;
+    left: 1400px;
     opacity: 0%;
     padding: 10px 20px; 
     background-color: darkgreen; 
@@ -25,3 +36,4 @@ body {
     border: none;
     cursor: pointer;
 }
+  

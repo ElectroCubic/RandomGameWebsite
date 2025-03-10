@@ -110,6 +110,9 @@ document.addEventListener("DOMContentLoaded", () => {
         ctx.clearRect(0, 0, canvas.width, canvas.height);
         ctx.fillStyle = "red";
         ctx.fillRect(cube.x, cube.y, cube.width, cube.height);
+        ctx.strokeStyle = "black";
+        ctx.lineWidth = 2;
+        ctx.strokeRect(cube.x, cube.y, cube.width, cube.height);
     }
 
     const triggers = document.querySelectorAll(".trigger");

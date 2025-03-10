@@ -46,3 +46,19 @@ document.addEventListener("keydown", (e) => {
 document.addEventListener("keyup", (e) => {
     keys[e.key] = false;
 });
+
+function goToLevel2()
+{
+    window.location.href = "level2.html";
+}
+
+function pain()
+{
+    window.location.reload();
+}
+
+function shift()
+{
+    var exit = document.getElementById("exit");
+    exit.style.left = 50 + "px";
+}

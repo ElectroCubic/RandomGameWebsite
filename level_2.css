@@ -1,0 +1,91 @@
+p {
+    font-weight: 800;
+    font-size: 20px;
+}
+
+#block1 {
+    position: absolute;
+    top: 200px;
+    left: 30px;
+}
+
+#block2 {
+    position: absolute;
+    top: 150px;
+    left: 30px;
+}
+
+
+body {
+    background-color: lightgreen;
+    font-family: 'Courier New', Courier, monospace;
+    user-select: none;
+}
+
+#exit {
+    position: absolute;
+    top: 50px;
+    left: 100px;
+    padding: 10px 20px; 
+    background-color: darkgreen; 
+    color: white;
+    font-size: large;
+    border: none;
+    cursor: pointer;
+}
+
+#title {
+    color: blue;
+    font-style: initial;
+    text-align: center;
+    font-size: 2em;
+}
+
+#ans {
+    position: absolute;
+    top: 280px;
+    left: 30px;
+}
+
+#sldr {
+    position: absolute; 
+    top: 220px; 
+    left: 1160px;
+}
+
+#help {
+    position: absolute;
+    top: 380px;
+    left: 20px;
+}
+
+#num1 {
+    border: 2px solid blue;
+    padding: 20px 20px;
+    color: blue;
+    font-size: x-large;
+    font-weight: bolder;
+    position: absolute;
+    top: 450px;
+    left: 400px;
+}
+#num2 {
+    border: 2px solid blue;
+    padding: 20px 20px;
+    color: blue;
+    font-size: x-large;
+    font-weight: bolder;
+    position: absolute;
+    top: 450px;
+    left: 600px;
+}
+#num3 {
+    border: 2px solid blue;
+    padding: 20px 20px;
+    color: blue;
+    font-size: x-large;
+    font-weight: bolder;
+    position: absolute;
+    top: 450px;
+    left: 800px;
+}
