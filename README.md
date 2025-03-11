@@ -1,6 +1,8 @@
 # RandomGameWebsite
 ## Made by ElectroCubic (Anush Bundel)
 
+## Check out the Live Demo [here](https://electrocubic.github.io/RandomGameWebsite/):
+
 ### Tech Stack used: HTML, CSS and Vanilla JS.
 
 ## Cube Controls:
